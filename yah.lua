@@ -57,7 +57,7 @@ signs_lib.register_sign("youarehere:xyz_sign", {
 		mesh = "street_signs_warning_36x36_entity_wall.obj",
 		yaw = signs_lib.wallmounted_yaw
 	},
-	drop = "street_signs:sign_warning_3_line",
+	drop = "youarehere:xyz_sign",
 	allow_widefont = true,
 	on_construct = function(pos)
 		local meta = minetest.get_meta(pos)
