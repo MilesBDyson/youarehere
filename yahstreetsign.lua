@@ -43,7 +43,7 @@ local cbox = {
 }
 signs_lib.register_sign("youarehere:sign_basic", {
 	description = S("street Names On A Sign"),
-	paramtype2 = "facedir",
+	paramtype2 = "none",
 	selection_box = cbox,
 	mesh = "street_signs_basic.obj",
 	tiles = { "yah_street_sign.png" },
